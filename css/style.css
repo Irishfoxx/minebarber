@@ -1,0 +1,142 @@
+body {
+  min-width: 900px;
+  margin: 0;
+  padding: 0;
+
+  background-color: white;
+  background-image: url('img/background.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 1800px auto;
+}
+
+h1 {
+  font-family: "PTSans Bold", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+  line-height: normal;
+}
+
+h2 {
+  font-family: "PTSans Bold", sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+  line-height: normal;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.main-header {
+  padding: 5px 0;
+}
+.container {
+  min-height: 20px;
+  padding: 5px;
+  border:solid black;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.main-navigation {
+  min-height: 50px;
+  width: 520px;
+  min-height: 20px;
+}
+.user-block {
+  min-height: 50px;
+  width: 90px;
+  float: right;
+}
+.main-container {
+  margin: 30px auto;
+}
+.logo {
+  margin: 0;
+  min-height: 120px;
+  width: 270px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.features-row {
+  margin-bottom: 35px;
+  padding: 5px;
+}
+.features-item {
+  min-height: 150px;
+  width: 195px;
+  margin-right: 24px;
+  float: left;
+  }
+.features-item:last-child {
+  margin-right: 0;
+}
+.index-content {
+  margin-bottom: 20px;
+  padding: 35px 40px;
+}
+.content-column-left,
+.content-column-right {
+  min-height: 230px;
+  width: 250px;
+}
+.content-column-left {
+  float: left;
+}
+
+.content-column-right {
+  float: right;
+}
+.main-footer {
+  padding: 20px 0;
+  
+}
+.footer-contacts {
+  min-height: 80px;
+  width: 220px;
+  float: left;
+  margin-right: 35px;
+}
+
+.footer-social {
+  min-height: 80px;
+  width: 140px;
+  float: left;
+}
+
+.footer-copyright {
+  min-height: 80px;
+  width: 220px;
+  float: left;
+}
+
+.item{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 200px;
+    min-height: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-left: 55px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+.price {
+  width: 200px;
+  height: 30px;
+  border:solid black}
+.price>p {
+  float:left;
+}
+.price>button {
+  float:right;
+}
